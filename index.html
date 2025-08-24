@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title></title>
+</head>
+<body>
+
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                Luma Store
+            </a><!--nav__logo-->
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="ri-home-2-line"></i>
+                            <span>Início</span>
+                        </a><!--nav__link-->
+                    </li><!--nav__item-->
+
+                      <li class="nav__item">
+                        <a href="#new" class="nav__link">
+                            <i class="ri-price-tag-3-line"></i>
+                            <span>Novidades</span>
+                        </a><!--nav__link-->
+                    </li><!--nav__item-->
+
+                      <li class="nav__item">
+                        <a href="#collection" class="nav__link">
+                            <i class="ri-compass-line"></i>
+                            <span>Coleção</span>
+                        </a><!--nav__link-->
+                    </li><!--nav__item-->
+
+                      <li class="nav__item">
+                        <a href="#products" class="nav__link">
+                            <i class="ri-t-shirt-line"></i>
+                            <span>Produtos</span>
+                        </a><!--nav__link-->
+                    </li><!--nav__item-->
+
+                </ul><!--nav__list-->
+            </div><!--nav__menu-->
+
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+        </nav><!--nav container-->
+    </header><!--header-->
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">Nova Coleção <br> de Roupas</h1>
+
+                    <p class="home__description">Conheça as últimas tendências da Luma Store <br> e renove seu estilo neste ano!</p>
+
+                    <a href="#new" class="button__link">Explorar <i class="ri-arrow-right-line"></i></a>
+                </div><!--home__data-->
+
+                <div class="home__images">
+                    <img style="border-radius: 8px;" src="assets/img/home1.jpg" alt="home image">
+                    <img style="border-radius: 8px;" src="assets/img/home2.jpg" alt="home">
+                </div><!--home__images-->
+            </div><!--home__container-->
+        </section><!--home section-->
+
+        <section class="new section" id="new">
+            <h2 class="section__title">Novas Categorias</h2>
+
+            <div class="new__container container grid">
+
+                <article class="new__card">
+                    <img src="assets/img/new1.jpg" alt="new image" class="new__img">
+                    
+                    <a href="#" class="new__link">
+                        <div class="new__data">
+                            <h2 class="new__title">Moletom & Blusas</h2>
+                            <span class="new__subtitle">
+                                Coleção de Inverno
+                            </span>
+                        </div><!--new__data-->
+
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article><!--new__card-->
+
+                <article class="new__card">
+                    <img src="assets/img/new2.jpg" alt="new image" class="new__img">
+                    
+                    <a href="#" class="new__link">
+                        <div class="new__data">
+                            <h2 class="new__title">Calças</h2>
+                            <span class="new__subtitle">
+                                Coleção de Inverno
+                            </span>
+                        </div><!--new__data-->
+
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article><!--new__card-->
+
+                <article class="new__card">
+                    <img src="assets/img/new3.jpg" alt="new image" class="new__img">
+                    
+                    <a href="#" class="new__link">
+                        <div class="new__data">
+                            <h2 class="new__title">Casacos & Conjuntos</h2>
+                            <span class="new__subtitle">
+                                Coleção de Inverno
+                            </span>
+                        </div><!--new__data-->
+
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article><!--new__card-->
+            </div><!--new__container-->
+        </section><!--new section-->
+
+        <section class="collection section" id="collection">
+            <div class="collection__container container">
+                <div class="collection__explore">
+                    <div class="collection__data-men">
+                        <h2 class="collection__title">Coleção <br> Masculina</h2>
+
+                        <a href="#" class="button__link">Explorar Roupas <i class="ri-arrow-right-line"></i></a>
+                    </div><!--collection__data-men-->
+
+                    <img style="border-radius: 8px;" src="assets/img/coleção1.jpg" alt="collection image">
+                </div><!--collection__explore-->
+
+                <div class="collection__explore">
+                    <img style="border-radius: 8px;" src="assets/img/coleção2.jpg" alt="collection image">
+                    <div class="collection__data-women">
+                        <h2 class="collection__title">Coleção <br> Feminina</h2>
+
+                        <a href="#" class="button__link">Explorar Roupas <i class="ri-arrow-right-line"></i></a>
+                    </div><!--collection__data-men-->
+                </div><!--collection__explore-->
+
+            </div><!--collection__container-->
+        </section><!--collection section-->
+
+        <section class="products section" id="products">
+            <h2 class="section__title">Produtos em Destaque</h2>
+
+            <div class="products__container container swiper">
+                <div class="swiper-wrapper">
+                    <article class="products__card swiper-slide">
+                        <img src="assets/img/produto1.jpg" alt="product image" class="products__img">
+                        <h2 class="products__title">Casaco Puffer Essential</h2>
+                        <span class="products__price">R$ 229,90</span>
+                    </article><!--products__card-->
+
+                    <article class="products__card swiper-slide">
+                        <img src="assets/img/produto2.jpg" alt="product image" class="products__img">
+                        <h2 class="products__title">Calça Wide Leg Urban Grey</h2>
+                        <span class="products__price">R$ 199,90</span>
+                    </article><!--products__card-->
+
+                    <article class="products__card swiper-slide">
+                        <img src="assets/img/produto3.jpg" alt="product image" class="products__img">
+                        <h2 class="products__title">Tricot Cozy Off White</h2>
+                        <span class="products__price">R$ 179,90</span>
+                    </article><!--products__card-->
+
+                    <article class="products__card swiper-slide">
+                        <img src="assets/img/produto4.jpg" alt="product image" class="products__img">
+                        <h2 class="products__title">Jaqueta Bomber Leather Black</h2>
+                        <span class="products__price">R$ 289,90</span>
+                    </article><!--products__card-->
+                </div>
+
+                <div class="swiper-button-next"><i class="ri-arrow-right-line"></i></div>
+                <div class="swiper-button-prev"><i class="ri-arrow-left-line"></i></div>
+            </div><!--products__container-->
+        </section><!--products section-->
+    </main><!--main-->
+
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div>
+                <a href="#" class="footer__logo">Luma Store</a>
+
+                <p class="footer__description">Comprometidos em trazer as <br> melhores roupas da Luma Store.</p>
+            </div>
+
+            <div class="footer__content">
+                <div>
+                    <h3 class="footer__title">Empresa</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Loja</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Categorias</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Contato</a>
+                        </li>
+                    </ul><!--footer__links-->
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Blog</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Eventos</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Notícias Populares</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Notícias Recentes</a>
+                        </li>
+                    </ul><!--footer__links-->
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Horário de Funcionament</h3>
+
+                    <p class="footer__information">Segunda a Sábado <br> 9h - 22h</p>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Redes Sociais</h3>
+
+                    <ul class="footer__social">
+                        <a href="#" class="footer__social-link"><i class="ri-facebook-fill"></i></a>
+                        <a href="#" class="footer__social-link"><i class="ri-instagram-line"></i></a>
+                        <a href="#" class="footer__social-link"><i class="ri-whatsapp-line"></i></a>
+
+                    </ul><!--footer__links-->
+                </div>
+            </div><!--footer__content-->
+        </div><!--footer__container-->
+
+        <div class="footer__info container">
+            <span class="footer__copy">&#169; Luma Store. Todos os direitos reservados</span>
+
+            <a href="#" class="footer__privacy">Termos & Condições</a>
+        </div><!--footer__info-->
+    </footer><!--footer section-->
+
+    <a href="#" class="scrollup" id="scroll-up"><i class="ri-arrow-up-line"></i></a>
+
+    
+
+
+
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

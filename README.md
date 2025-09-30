@@ -4,7 +4,7 @@ Este é um projeto de landing page para uma loja fictícia de roupas chamada Lum
 
 ## 🔗 Visualizar Projeto
 
-[Visualizar Projeto](https://tainamartins20.github.io/luma-store-landing/) <!-- Substitua pelo link real do GitHub Pages ou deploy -->
+[Visualizar Projeto](https://tainamartins20.github.io/luma-store-landing/)
 
 ## 📝 Descrição
 
